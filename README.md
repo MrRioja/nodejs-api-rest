@@ -32,6 +32,17 @@ O primeiro capítulo do módulo foi voltado à estruturação da aplicação, du
 - [x] Criarmos o servidor da nossa aplicação com Fastify e realizamos seu setup inicial.
 - [x] Conhecemos o ESLint, as razões para usa-lo e como configura-lo.
 
+### Capitulo 2 - Banco de dados
+
+Nesse capitulo vimos como utilizar banco de dados na nossa aplicação. Vimos quais as formas de acessar um banco através do código e as suas diferenças. Além disso, vimos:
+
+- [x] O que é e como configurar o Knex na nossa aplicação.
+- [x] O que são e como criar migrations.
+- [x] Como criar tabelas utilizando o queryBuilder Knex.
+- [x] Como realizar queries com o Knex.
+- [x] Como definir e acessar variáveis de ambiente.
+- [x] Como tratar env com a lib de validação Zod.
+
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
