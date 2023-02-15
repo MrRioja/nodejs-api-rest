@@ -43,6 +43,57 @@ Nesse capitulo vimos como utilizar banco de dados na nossa aplicação. Vimos qu
 - [x] Como definir e acessar variáveis de ambiente.
 - [x] Como tratar env com a lib de validação Zod.
 
+### Capitulo 3 - Implementando as rotas
+
+Aqui o conteúdo foi o core da projeto, definimos os requisitos funcionais e não funcionais e as regras de negócio da nossa aplicação. Abaixo uma lista dos assuntos abordados e tarefas realizadas durante esse capitulo:
+
+- [x] Definição dos Requisitos funcionais, não funcionais e Regras de negocio:
+
+  - [x] Requisitos Funcionais (RF):
+
+    - [x] O usuário deve poder criar uma conta.
+    - [x] O usuário deve poder obter um extrato da sua conta.
+    - [x] O usuário deve poder visualizar uma transação única.
+    - [x] O usuário deve poder listar todas transações que já ocorreram.
+
+  - [x] Regras Não Funcionais (RNF):
+
+    - [x] Será criado ao longo da aplicação.
+
+  - [x] Regras de Negócios (RN):
+    - [x] O usuário só pode visualizar transações que ele criou.
+    - [x] Deve ser possível identificar o usuário entre as requisições.
+    - [x] A transação pode do tipo crédito que somará ao valor total ou débito que será subtraído.
+
+- [x] Compreensão e adição de plugins no Fastify.
+- [x] Criação de transações.
+- [x] Como adicionar tipagem no Knex.
+- [x] Listagem de transações.
+- [x] Resumo de transações.
+- [x] Como utilizar cookies no Fastify.
+- [x] Como validar existência de cookie.
+- [x] Como configurar um hook global.
+
+### Capitulo 4 - Testes automatizados
+
+Nesse capitulo entendemos sobre a importância de realizar testes automatizados, incluindo os conceitos de testes unitários, testes de integração e testes e2e, assim como a importância da pirâmide de testes para se ter uma estratégia de testes sólida e eficiente. Durante as aulas nós:
+
+- [x] Conhecemos os tipos e o que é a piramide de testes.
+
+  - [x] **Testes unitários** são testes que validam o comportamento de uma única unidade de código, como uma função ou método. Eles são úteis para garantir que cada parte da aplicação esteja funcionando corretamente, sem depender de outras partes.
+
+  - [x] **Testes de integração** são testes que validam a integração entre várias partes da aplicação, como a integração entre a camada de banco de dados e a camada de serviço. Eles são importantes para garantir que a aplicação esteja funcionando corretamente como um todo.
+
+  - [x] **Testes e2e** (end-to-end) são testes que validam o comportamento da aplicação como um todo, simulando a interação do usuário com a aplicação. Eles são importantes para garantir que a aplicação esteja funcionando corretamente em todos os níveis, desde a camada de interface até a camada de banco de dados.
+
+  - [x] A **pirâmide de testes** é uma estratégia que se baseia em ter mais testes unitários e menos testes de integração e e2e, pois testes unitários são mais rápidos e fáceis de escrever e manter do que outros tipos de testes.
+
+- [x] Criamos testes para nossa API.
+
+- [x] Categorizamos os testes criados.
+
+- [x] Configuramos um banco de teste.
+
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
