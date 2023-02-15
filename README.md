@@ -94,6 +94,15 @@ Nesse capitulo entendemos sobre a importância de realizar testes automatizados,
 
 - [x] Configuramos um banco de teste.
 
+### Capitulo 5 - Preparando app para deploy
+
+No capitulo final do módulo vimos:
+
+- [x] Como preparar nossa aplicação para ir ao ar.
+- [x] Configurações necessárias e pontos de atenção para o deploy.
+- [x] Uso da ferramenta tsup para buildar o projeto.
+- [x] Como fazer o deploy da nossa API REST na plataforma Render.
+
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
