@@ -127,7 +127,7 @@ $ npm run dev
 # Caso prefira usar o Yarn execute o comando abaixo
 $ yarn dev
 
-# O servidor iniciará na porta 3333 ou na porta definida no arquivo .env na variável APP_PORT - acesse <http://localhost:3333>
+# O servidor iniciará na porta 3333 ou na porta definida no arquivo .env na variável PORT - acesse <http://localhost:3333>
 ```
 
 ## Tecnologias
