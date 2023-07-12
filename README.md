@@ -105,7 +105,7 @@ No capitulo final do módulo vimos:
 
 As requisições para testar a API estão disponíveis no botão abaixo e o link para acessar a API no ar está na descrição do repositório:
 
-[![Run in Insomnia](https://insomnia.rest/images/run.svg)]([https://insomnia.rest/run/?label=nodejs-api-rest&uri=https://github.com/MrRioja/nodejs-api-rest/blob/87ca351e5edc9a9123b441c8ea697dcb39bfc2f6/.github/Insomnia.json](https://github.com/MrRioja/nodejs-api-rest/blob/26ce5500dd1847b9d45281ff17d4189fa4ab7ca8/.github/Insomnia.json))
+[![Run in Insomnia](https://insomnia.rest/images/run.svg)](https://github.com/MrRioja/nodejs-api-rest/blob/26ce5500dd1847b9d45281ff17d4189fa4ab7ca8/.github/Insomnia.json)
 
 ## Instalação
 
